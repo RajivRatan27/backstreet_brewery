@@ -32,7 +32,13 @@ export default function Footer() {
           <div className="col-span-1">
             <div className="flex items-center gap-2.5 mb-4">
               <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-amber-500 to-orange-600 flex items-center justify-center shadow-lg shadow-amber-900/50">
-                <span className="text-black font-black text-xl">B</span>
+            <Image
+              src="/logo1.png"
+              alt="Backstreet Brewery"
+              width={48}
+              height={48}
+              className="group-hover:scale-110 transition-transform"
+            />
               </div>
               <div>
                 <div className="text-white font-display font-bold text-base leading-tight">
