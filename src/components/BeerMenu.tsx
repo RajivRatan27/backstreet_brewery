@@ -48,7 +48,7 @@ const beers = [
     ibu: "12",
     style: "Hefeweizen",
     color: "from-yellow-600 to-amber-400",
-    image: "https://images.unsplash.com/photo-1571506165871-ee72a35bc9d4?w=400&q=85",
+    image: "/beerwheat.jpeg",
     badge: "New",
   },
 ];
