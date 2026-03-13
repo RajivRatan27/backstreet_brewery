@@ -19,15 +19,15 @@ const floatingItems: FloatingItem[] = [
     className:
       "absolute top-[8%] left-[4%] md:top-[12%] md:left-[6%] opacity-80 drop-shadow-2xl",
     animationClass: "animate-float",
-    size: 110,
+    size: 200,
   },
   {
-    src: "https://images.unsplash.com/photo-1576158113928-4c240eaaf360?w=200&q=80",
+    src: "/backstreet1.png",
     alt: "Beer pint",
     className:
       "absolute top-[5%] right-[5%] md:top-[8%] md:right-[8%] opacity-80 drop-shadow-2xl",
     animationClass: "animate-float-delayed",
-    size: 100,
+    size: 160,
   },
   {
     src: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=200&q=80",
@@ -35,7 +35,7 @@ const floatingItems: FloatingItem[] = [
     className:
       "absolute bottom-[22%] left-[2%] md:bottom-[20%] md:left-[4%] opacity-80 drop-shadow-2xl",
     animationClass: "animate-float-slow",
-    size: 120,
+    size: 180,
   },
   {
     src: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=200&q=80",
@@ -43,15 +43,15 @@ const floatingItems: FloatingItem[] = [
     className:
       "absolute bottom-[18%] right-[3%] md:bottom-[22%] md:right-[6%] opacity-80 drop-shadow-2xl",
     animationClass: "animate-float",
-    size: 115,
+    size: 180,
   },
   {
-    src: "https://images.unsplash.com/photo-1575367439058-6096bb522a51?w=200&q=80",
+    src: "/backstreet2.png",
     alt: "Beer bottles",
     className:
       "absolute top-[38%] left-[0%] md:top-[40%] md:left-[2%] opacity-70 drop-shadow-2xl hidden md:block",
     animationClass: "animate-float-delayed",
-    size: 90,
+    size: 100,
   },
   {
     src: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=200&q=80",
@@ -59,7 +59,7 @@ const floatingItems: FloatingItem[] = [
     className:
       "absolute top-[40%] right-[0%] md:top-[42%] md:right-[2%] opacity-70 drop-shadow-2xl hidden md:block",
     animationClass: "animate-float-slow",
-    size: 95,
+    size: 180,
   },
 ];
 
@@ -161,7 +161,7 @@ export default function FloatingFoodHero({
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-gray-500 animate-bounce">
+      {/* <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-gray-500 animate-bounce">
         <span className="text-xs tracking-[0.2em] uppercase">Scroll</span>
         <svg
           width="16"
@@ -181,7 +181,7 @@ export default function FloatingFoodHero({
             className="animate-bounce"
           />
         </svg>
-      </div>
+      </div> */}
     </section>
   );
 }

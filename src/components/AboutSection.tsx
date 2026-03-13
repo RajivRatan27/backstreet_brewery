@@ -47,11 +47,11 @@ export default function AboutSection() {
           <div className="relative group">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <Image
-                src="https://images.unsplash.com/photo-1559526324-593bc073d938?w=800&q=85"
+                src="/reviews.png"
                 alt="Backstreet Brewery interior"
                 width={700}
                 height={500}
-                className="object-cover w-full h-[420px] md:h-[520px] group-hover:scale-105 transition-transform duration-700"
+                className="object-contain w-full h-[320px] md:h-[420px] group-hover:scale-100 transition-transform duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
             </div>

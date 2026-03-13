@@ -28,7 +28,7 @@ const categories = [
         name: "Avocado Hummus",
         desc: "Whipped hummus, avocado, dukkah, toasted pita",
         price: "₹299",
-        image: "https://images.unsplash.com/photo-1637090491695-76cad8782f46?w=300&q=80",
+        image: "/avacado.jpg",
         tag: "Veg",
       },
     ],
@@ -70,7 +70,7 @@ const categories = [
         name: "Beer-Can Chicken",
         desc: "Half chicken, lager-braised, chimichurri, fries",
         price: "₹699",
-        image: "https://images.unsplash.com/photo-1598514982901-9f6a22d3ce30?w=300&q=80",
+        image: "/beerchicken.jpeg",
         tag: "Signature",
       },
       {

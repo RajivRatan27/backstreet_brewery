@@ -36,7 +36,7 @@ const beers = [
     ibu: "55",
     style: "India Pale Ale",
     color: "from-orange-700 to-yellow-600",
-    image: "https://images.unsplash.com/photo-1616098093213-6e716e666d98?w=400&q=85",
+    image: "/citrus.jpeg",
     badge: "Seasonal",
   },
   {

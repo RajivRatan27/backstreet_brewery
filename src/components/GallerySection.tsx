@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const galleryImages = [
   {
-    src: "https://images.unsplash.com/photo-1559526324-593bc073d938?w=600&q=85",
+    src: "/thebar.jpg",
     alt: "Brewery interior ambience",
     span: "col-span-2 row-span-2",
     caption: "The Bar",
@@ -35,10 +35,10 @@ const galleryImages = [
     caption: "Gourmet Dining",
   },
   {
-    src: "https://images.unsplash.com/photo-1576158113928-4c240eaaf360?w=400&q=85",
-    alt: "Beer pint on tap",
+    src: "/bb2.png",
+    alt: "PhotoSpotvibe",
     span: "",
-    caption: "On Tap",
+    caption: "The Vibe",
   },
   {
     src: "https://images.unsplash.com/photo-1516997121675-4c2d1684aa3e?w=600&q=85",

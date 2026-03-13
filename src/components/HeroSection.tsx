@@ -28,7 +28,7 @@ export default function HeroSection() {
         </Link>
         <Link
           href="#reservation"
-          className="inline-flex items-center gap-2 glass hover:bg-white/10 text-white font-bold px-8 py-4 rounded-full text-sm tracking-wide uppercase transition-all duration-300 hover:scale-105 border border-white/20"
+          className="inline-flex items-center gap-2 glass hover:bg-white/10 text-white font-bold px-8 py-4 rounded-full text-sm tracking-wide uppercase transition-all duration-300 hover:scale-105 border border-white/40 bg-white/5"
         >
           <svg
             className="w-4 h-4"

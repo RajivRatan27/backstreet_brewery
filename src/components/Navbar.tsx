@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const navLinks = [
   { label: "About", href: "#about" },
@@ -31,17 +32,21 @@ export default function Navbar() {
             : "bg-transparent"
         }`}
       >
-        <div className="max-w-7xl mx-auto px-4 md:px-8 h-16 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-4 md:px-8 h-24 flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2.5 group">
-            <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-amber-500 to-orange-600 flex items-center justify-center shadow-lg shadow-amber-900/50 group-hover:scale-110 transition-transform">
-              <span className="text-black font-black text-lg">B</span>
-            </div>
+            <Image
+              src="/logo1.png"
+              alt="Backstreet Brewery"
+              width={48}
+              height={48}
+              className="group-hover:scale-110 transition-transform"
+            />
             <div>
-              <div className="text-white font-display font-bold text-base leading-tight">
+              <div className="text-white font-display font-bold text-lg leading-tight">
                 Backstreet
               </div>
-              <div className="text-amber-400 text-[10px] font-semibold tracking-[0.15em] uppercase leading-tight">
+              <div className="text-amber-400 text-xs font-semibold tracking-[0.15em] uppercase leading-tight">
                 Brewery
               </div>
             </div>
